@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<title>Snakessssssss</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="loader"></div>
+		<nav id="navigation">
+			<a href="#home">Menu</a>
+			<a href="#projects">Leaderboard</a>
+			<a href="#admin">Settings</a>
+		</nav>
+		<main id="app">
+			<div class="page-view" id="home-view">
+				<h1>Welcome to a <br> ssssslithering game...</h1>
+					<div class="start-game">
+						<div class="start-game-img"></div>
+						<a href="#resume"><p>Ssssstart</p></a>
+					</div>
+			</div>
+			<div class="page-view" id="game-view">
+				<div class="the-game-box">
+					<canvas id="the-game" height="240">
+				</div>
+			</div>
+			<div class="page-view" id="projects-view">
+				<h1>Your Highest Score!</h1>
+				<div id="project-list"></div>
+			</div>
+			<div class="page-view" id="settings-view">
+				<h1>Settings</h1>
+				<div class="form">
+					<h2>Lets change the directions keys</h2>
+					
+				</div>
+			</div>
+		</main>
+
+		<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+		<script type="text/javascript" src="bower_components/backbone/backbone.js"></script>
+
+		<script type="text/javascript" src="js/models/ProjectModel.js"></script>
+
+		<script type="text/javascript" src="js/collections/ProjectCollection.js"></script>
+
+		<script type="text/javascript" src="js/views/IndividualProjectView.js"></script>
+		<script type="text/javascript" src="js/views/HomeView.js"></script>
+		<script type="text/javascript" src="js/views/GameView.js"></script>
+		<script type="text/javascript" src="js/views/ProjectsView.js"></script>
+		<script type="text/javascript" src="js/views/AdminView.js"></script>
+		<script type="text/javascript" src="js/views/AppView.js"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
+
